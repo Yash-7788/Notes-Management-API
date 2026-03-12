@@ -1,0 +1,32 @@
+# Node dependencies
+node_modules/
+
+# Environment variables (secrets)
+.env
+
+# Local database
+database.sqlite
+*.sqlite
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
+
+# Temporary files
+tmp/
+temp/
+
+# Build artifacts
+dist/
+build/

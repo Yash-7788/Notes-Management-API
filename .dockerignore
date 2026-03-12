@@ -1,0 +1,24 @@
+# Node modules (installed inside container)
+node_modules
+
+# Git
+.git
+.gitignore
+
+# Environment variables
+.env
+
+# Local database
+database.sqlite
+*.sqlite
+
+# Logs
+npm-debug.log
+*.log
+
+# Documentation files
+README.md
+
+# OS files
+.DS_Store
+Thumbs.db
