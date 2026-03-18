@@ -18,8 +18,9 @@ const errorHandler = require("./middleware/errorHandler");
 
 const app = express();
 
-app.use(express.json());
 app.use(cors());
+app.use(express.json());
+
 
 app.get("/", (req, res) => {
   res.send("Notes API is running");
