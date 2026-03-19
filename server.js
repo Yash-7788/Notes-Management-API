@@ -40,6 +40,6 @@ app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT , () => {
+app.listen(5000 , () => {
    console.log(`SERVER RUNNING ON PORT ${PORT}`);
 });
